@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hopy's website(showing information)</title>
+    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="plugins/fontawesome/fontawesome-free-5.15.1-web/css/all.min.css">
+    <link rel="stylesheet" href="plugins/chartjs/Chart.min.css">
+    <style>
+      * {
+        font-stretch: ultra-condensed;
+        font-size: large;
+      }
+      .p1 {
+        font-family: cursive;
+      }
+      .chart-box {
+        height: 500px;
+      }
+      .footer {
+        background-color: #007bff;
+      }
+    .navbar {
+      background-color: #28a745;
+    }
+    .space {
+      width: 150px;
+      height: 150px;
+    }
+    </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark navbar">
+    <a class="navbar-brand" href="hello.html">INFORMATION IS BEAUTIFUL <span class=""></span><i class="fas fa-qrcode"></i></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="play.html">Play <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="explaination.html">Explaination</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link tr" href="#contact">contact</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="request.html">Request</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+ <div class="space bg-white"></div>     
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 col-md-6">
+            <p class="h5">
+              Our company provides you with the best of data analysis
+              It has information on more than 375 million companies and entities across the globe – 40 million of these have detailed financial information.
+              It’s the most powerful comparable data resource on private companies – and it covers listed companies too. It’s strengths include:
+            </p>
+                <ul class="h5">
+                  <li>comparable information</li>
+                  <li>extensive corporate ownership structures</li>
+                  <li>a holistic view of companies</li>
+                </ul>
+            <p class="h5">
+                We go further than just providing information, we carefully capture a wide variety of data, then we treat, append and standardize it to make it richer, more powerful and easier to interrogate. In fact, we capture and treat data from more than 170 separate providers, and hundreds of our own sources, to create Orbis.
+            </p>
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-6">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="img-thumbnail" src="pics/personal-3108154_1920.jpg" alt="showing population">
+                </div>
+                <div class="carousel-item">
+                  <img class="img-thumbnail" src="pics/trace-3157431_1920.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="img-thumbnail" src="pics/raspberry-2023404.jpg" alt="Third slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--introduction section-->
+      <div class="space bg-white"></div> 
+      <footer class="page-footer font-small mdb-color lighten-3 pt-4 footer ">
+        <div class="container text-center text-md-left">
+          <div class="row">
+            <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
+              <h5 id="about" class="font-weight-bold text-uppercase mb-4">About us</h5>
+              <p>The idea of our business comes from the time I start studying Economics</p>
+              <p>By the time of learning how to work with numbers I expanded an idea of organizing a company that works on other companies's information.</p>
+            </div>
+            <hr class="clearfix w-100 d-md-none">
+            <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+              <h5 id="contact" class="font-weight-bold text-uppercase mb-4">Address</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <p>
+                    <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+                </li>
+                <li>
+                  <p>
+                    <i class="fas fa-envelope mr-3"></i> info@example.com</p>
+                </li>
+                <li>
+                  <p>
+                    <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+                </li>
+                <li>
+                  <p>
+                    <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                </li>
+              </ul>
+      
+            </div>
+            <hr class="clearfix w-100 d-md-none">
+            <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
+              <h5 class="font-weight-bold text-uppercase mb-4">Follow Us</h5>
+              <a type="button" class="btn-floating btn-fb">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <!-- Twitter -->
+              <a type="button" class="btn-floating btn-tw">
+                <i class="fab fa-instagram fa-fw fa-3x" aria-hidden="true"></i>
+              </a>
+              <!-- Google +-->
+              <a type="button" class="btn-floating btn-gplus">
+                <i class="fab fa-google-plus-g"></i>
+              </a>
+              <!-- Dribbble -->
+              <a type="button" class="btn-floating btn-dribbble">
+                <i class="fab fa-dribbble"></i>
+              </a>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </footer>
+    <script src="plugins/jquery/jquery-3.5.1.min.js"></script>
+    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="plugins/fontawesome/fontawesome-free-5.15.1-web/js/all.min.js"></script>
+    <script src="plugins/chartjs/Chart.min.js"></script>
+    <script>
+    
+    </script>
+</body>
+</html>
